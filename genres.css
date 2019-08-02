@@ -1,0 +1,97 @@
+.box{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px
+}
+.catpage{
+    background-color: #2d3436;
+}
+.cat{
+    
+    height: 150px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    font-size: 30px;
+    opacity: 0.8;
+}
+.cat a{
+    text-decoration: none;
+
+}
+.cat:hover{
+    font-size: 50px;
+    transition: 0.2s;
+    opacity: 1;
+    outline: 5px solid #dcdde1;
+    outline-offset: -5px;
+   
+
+}
+#Cl{
+    background-image: url("genres/gold.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: Pinyon Script;
+    color: #fad390;
+}
+#Co{
+    background-image: url("genres/comedy.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: Bangers;
+    color: #fbc531;
+}
+#Ac{
+    background-image: url("genres/action.jpg");
+    background-position: center;
+    font-family: Days One;
+    color: white;
+}
+
+#Sh{
+    background-image: url("genres/irnman.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Shrikhand;
+    color: #4a69bd;
+}
+#Ro{
+    background-image: url("genres/romm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Lobster;
+    color: #f7f1e3;
+}
+#Hr{
+    background-image: url("genres/horr.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Beth Ellen;
+    color: #e84118;
+}
+#Ar{
+    background-image: url("genres/arabic.jpg");
+    background-position: center;
+    font-family: Aref Ruqaa
+}
+.alea{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;;
+  color: #f7f1e3;
+    font-size: 50px;
+    
+} 
+#rou :hover{
+    transition: 0.5s;
+} 
+
+
+

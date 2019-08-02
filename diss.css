@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand|Aref+Ruqaa|Arimo|Farro|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Beth+Ellen|Lobster|Shadows+Into+Light|Pinyon+Script|Days+One&display=swap');
+
+.bg{
+    background-color: #2d3436;
+    width: 100%;
+    height:100% ;
+}
+.mvs1{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+}
+.mvs2{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#JW{
+background-image: url("aflem/John-Wick.jpg");
+}
+#Int{
+    background-image: url("aflem/interstellar.jpeg");
+}
+#GT{
+background-image: url("aflem/get out.jpg")
+}
+#PD{
+background-image: url("aflem/predestination.jpg")
+}
+#TFI{
+background-image: url("aflem/the-fault-in-our-stars-.jpg")
+}
+#Ted{
+    background-image: url("aflem/Ted.jpg")
+}
+
+.mvs1 h1{
+font-family: Arimo;
+margin-right: 10px;
+color: #dfe6e9;
+text-shadow: 0.5px 0.5px #2d3436;
+}
+.mvs1 h5{
+    
+    font-family: Farro;
+margin-right: 10px;
+color: #dfe6e9;
+text-shadow:  0.5px 0.5px #2d3436;
+opacity: 1;
+}
+.mvs2 h1{
+    font-family: Arimo;
+    margin-left: 10px;
+    color: #dfe6e9;
+    text-shadow: 0.5px 0.5px #2d3436;
+    }
+.mvs2 h5{
+        
+    font-family: Farro;
+    margin-left: 10px;
+    color: #dfe6e9;
+    text-shadow:  0.5px 0.5px #2d3436;
+    
+    }
+.ctgs{
+    display: inline-flex;
+}
+.mvs2 h5:hover, .mvs1 h5:hover{
+    text-decoration: underline;
+    
+}
+.mvs1:hover, .mvs2:hover {
+    opacity: 0.7;
+   transition: 0.3s;
+    outline-style:  solid;
+  outline-color:#d63031 ;
+  
+}
+
+.vid{
+ position: absolute;
+    top: 56px;
+    left: 290px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+#exit a{
+color: #d63031;
+position: absolute;
+top: 300px;
+left: 1250px;
+border: #d63031 solid 1px 1px
+}
+.modal{
+    display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+   /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+
+
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-image: url("cine.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height:100%;
+}
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.hidd{
+    display: none;
+}
+ 
+    
+    
